@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  style="@style/titlebar">
+  	<TextView android:id="@+id/titlebar_text"
+  		style="@style/titlebar_text">
+  	</TextView>
+</LinearLayout>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  styles for bottom menu buttons -->
+    	<style name="btn_bottommenu">
+    		<item name="android:layout_height">40dip</item>
+    		<item name="android:textColor">@color/solid_white</item>
+    		<item name="android:textStyle">bold</item>
+			<item name="android:gravity">center_horizontal|center_vertical</item>
+			<item name="android:textSize">12dip</item>
+    	</style>
+    	<style name="titlebar">
+			<item name="android:layout_width">fill_parent</item>
+			<item name="android:layout_height">@dimen/titlebar_height</item>
+			<item name="android:orientation">horizontal</item>
+			<item name="android:gravity">center_vertical|center_horizontal</item>
+			<item name="android:background">@color/title_background</item>
+		</style>
+ 	<style name="titlebar_text">
+			<item name="android:id">@+id/titlebar_text</item>
+			<item name="android:layout_width">wrap_content</item>
+			<item name="android:layout_height">wrap_content</item>
+			<item name="android:textSize">@dimen/titlebar_textsize</item>
+			<item name="android:gravity">center_vertical|center_horizontal</item>
+			<item name="android:layout_gravity">center_vertical|center_horizontal</item>
+			<item name="android:paddingLeft">10dip</item>
+			<item name="android:singleLine">false</item>
+		</style>
+		
+		<style name="filler_10dip">
+    		<item name="android:layout_width">fill_parent</item>
+    		<item name="android:layout_height">10dip</item>
+    		<item name="android:visibility">invisible</item>
+    	</style>
+    	<style name="filler_5dip">
+    		<item name="android:layout_width">fill_parent</item>
+    		<item name="android:layout_height">5dip</item>
+    		<item name="android:visibility">invisible</item>
+    	</style>
+</resources>
